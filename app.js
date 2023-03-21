@@ -3,7 +3,7 @@ const https = require('https');
 const app = express();
 const PORT = 3000 || process.env.PORT; // it will run in locally if external sever is not present
 const bodyParser = require("body-parser");
-const API_KEY = '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'; // Replace with your Sendinblue API key
+const API_KEY = "Your API key";  Sendinblue API key
 const LIST_ID = 6;
 
 app.use(express.static("public"));
